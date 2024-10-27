@@ -1,0 +1,402 @@
+@font-face {
+    font-family: "titan";
+    src: url(Alphabet_snk.otf);
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgb(2, 51, 2);
+    
+}
+
+a {
+    margin: auto;
+    text-decoration: none; 
+}
+
+p{
+    font-size: 30px;
+    margin: 1%;
+}
+
+h1{
+    margin: auto;
+    font-size: 540% ;  
+    
+}
+h2{
+    text-align: center;
+    font-size: 40px ;
+    margin-bottom: 2%;
+}
+
+h3{
+    color: rgb(2, 51, 2);
+    text-align: center;
+    font-size: 32px;
+}
+
+li{
+    font-size: 25px;
+}
+
+header{
+    background-color: rgb(65, 92, 69);
+    padding: 2%;
+}
+
+header h1{
+    color: rgb(255, 246, 234);
+    
+}
+header h2{
+    color: rgb(255, 246, 234);
+
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+
+.head div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.head img{
+    width: 60%;
+    justify-items: center;
+}
+
+.titre{
+    width: 130%;
+}
+
+
+.IMGarmée{
+    width: 33%;
+    height: auto;
+}
+
+
+
+
+.menu h2:hover{
+    text-decoration: underline;
+}
+.menu h2{
+    margin: auto;
+    font-size: 40px ;
+}
+
+.menu{
+    display: flex;
+    border-top: solid;
+    border-top-width: 5px;
+    border-radius: 20%;
+    border-color: rgb(3, 33, 2);
+}
+
+.menu div{
+    margin: auto;
+    margin-top: 2%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container{
+    border-bottom: solid;
+    margin: 3%;
+}
+
+.container div{
+    margin: 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li{
+    margin-bottom: 2%;
+}
+
+
+.missions{
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 2%;
+    border-top: solid;
+}
+
+
+.container h2{
+    font-family: "titan";
+}
+
+
+
+.st{
+    color: rgb(2, 51, 2);
+    margin: 3%;
+    font-size: 35px;
+    text-decoration: underline;
+}
+#bas{
+    padding-top: 1%;
+    margin: 2%;
+}
+
+.corps{
+    
+    display: flex;
+    justify-content: space-around;
+    
+}
+.corps div{
+    width: 33%;
+    
+}
+
+
+.corps img{
+    
+    margin: auto;
+    display: flex;
+    width: 40%;
+    height: auto;
+}
+
+.corps a{
+    font-size: 30px;
+}
+
+.ci{
+    color: rgb(146, 19, 19);
+}
+.ex{
+    color: rgb(26, 81, 136);
+}
+.pr{
+    color: rgb(8, 100, 3);
+}
+
+
+footer{
+    margin-top: 2%;
+    padding: 2%;
+    background-color: rgb(186, 186, 186);
+}
+
+footer h2{
+    margin-bottom: 5%;
+}
+footer p{
+    margin-bottom: 2%;
+}
+
+.rdv{
+    display: block;
+}
+
+
+
+/*PAGE 2*//*PAGE 2*//*PAGE 2*//*PAGE 2*//*PAGE 2*//*PAGE 2*//*PAGE 2*//*PAGE 2*/
+
+
+.emblemes{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+
+.chef{
+    width: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1300px){
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    p{
+        font-size: 25px;
+    }
+    li{
+        font-size: 25px;
+    }
+    .menu h2{
+        font-size: 30px;
+    }
+    .corps h3 a{
+        font-size: 25px;
+    }
+    .head img{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:1000px){
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    p{
+        font-size: 23px;
+    }
+    li{
+        font-size: 23px;
+    }
+    .menu h2{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:800px){
+    h1{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    h3{
+        font-size: 15px;
+    }
+    p{
+        font-size: 19px;
+    }
+    li{
+        font-size: 19px;
+    }
+    .menu h2{
+        font-size: 18px;
+    }
+    .corps h3 a{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:600px){
+    h1{
+        font-size: 18px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 15px;
+    }
+    p{
+        font-size: 15px;
+    }
+    li{
+        font-size: 15px;
+    }
+    .menu h2{
+        font-size: 15px;
+    }
+    .corps{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .corps div{
+        width: 80%;
+    }
+    .corps img{
+        width: 23%;
+    }
+    .st{
+        font-size: 25px;
+    }
+    .emblemes{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (max-width:480px){
+    .menu h2{
+        font-size: 13px;
+    }
+}
+
+
+@media screen and (max-width:400px){
+    .head div h1{
+        font-size: 16px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    h3{
+        font-size: 15px;
+    }
+    p{
+        font-size: 13px;
+    }
+    li{
+        font-size: 12px;
+    }
+    .menu h2{
+        font-size: 11px;
+    }
+    .st{
+        font-size: 20px;
+    }
+    
+    .head img{
+        width: 20%;
+    }
+
+
+}
+
+
+
+.leoimg{
+    width: 80%;
+}
+.leodiv h1{
+    color: rgb(255, 0, 140);
+    font-size: 60px;
+}
+.leodiv{
+    text-align: center;
+}
+.leo {
+    color: rgb(146, 19, 19);  
+}
+
+
+
+
